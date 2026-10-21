@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 330" role="img" aria-label="Two students learning together at a desk">
+    <path d="M55 281h365" stroke="#312641" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="247" cy="287" rx="169" ry="13" fill="#2e1b5a" opacity=".08"/>
+    <path d="M74 280l17-104c3-27 30-45 54-36l40 17c19 7 29 28 28 51l-2 72" fill="#c5ee73" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M110 202l10 58 86-15" fill="none" stroke="#30243c" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M126 121v31c15 15 32 12 38-1l-5-29" fill="#d99d77" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M110 74c-15 51 0 75 30 74 34-2 49-35 37-68" fill="#efbe99" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M110 94c-16 3-20-21-8-33-4-19 19-34 33-22 18-17 47-2 43 15 22 15 7 39-7 38-13-9-18-22-14-30-9 19-30 25-47 18Z" fill="#30243c"/>
+    <path d="M130 110l2 1m25-2 2-1m-23 18q9 8 17-1" fill="none" stroke="#30243c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M297 278l-5-83c-1-29 12-48 34-55l37-10c26-7 49 13 53 39l17 110" fill="#9572de" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M328 121v30c11 13 26 10 32-5l-7-26" fill="#bf7b5b" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M304 75c-2 41 8 70 34 70s43-32 37-66" fill="#dca37b" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M299 88c-18-26 0-57 30-52 17-16 49 0 43 17 25 5 22 39 9 45l-14-16-1-15c-22 12-39 7-50-6l-2 30Z" fill="#30243c"/>
+    <path d="M321 108l2 1m26-3 2-1m-25 18q9 8 17-1" fill="none" stroke="#30243c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M334 192l-26 55-58-9" fill="none" stroke="#30243c" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M207 231l-24-13m67 14 17-13" stroke="#dca37b" stroke-width="15" stroke-linecap="round"/>
+    <path d="M117 282v37m263-37v37" stroke="#30243c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M111 271h277v12H111Z" fill="#f8f4ee" stroke="#30243c" stroke-width="2.5"/>
+    <path d="M174 263l54-12 53 12-52 9Z" fill="#fff" stroke="#30243c" stroke-width="2"/>
+    <path d="M204 214h59l-6 44h-47Z" fill="#f6e8a7" stroke="#30243c" stroke-width="2"/>
+    <circle cx="234" cy="235" r="4" fill="#30243c"/>
+    <path d="M219 79c-9-23 5-39 24-39 23 0 36 26 17 43l-3 13h-25l-4-14Z" fill="#f9e9a9" stroke="#30243c" stroke-width="2"/>
+    <path d="M233 102h23m-20 7h17m-9-84v-9m31 15 7-8m-70 8-8-7" stroke="#30243c" stroke-width="2" stroke-linecap="round"/>
+  </svg>

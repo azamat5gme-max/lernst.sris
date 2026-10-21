@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7850c8">
+  <meta name="description" content="Learnst — school peer tutoring. Find a subject, choose a tutor and make a little learning plan.">
+  <title>Learnst — learn together</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./shared.css">
+  <script src="./config.js" defer></script>
+  <script src="./data.js" defer></script>
+  <script src="./cloud.js" defer></script>
+  <script src="./student.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-action="skip">Skip to content</a>
+  <header class="topbar">
+    <div class="header-inner wrap">
+      <a class="brand" href="#find" aria-label="Learnst — home"><img src="./assets/favicon.svg" width="34" height="34" alt="">learnst<span>.</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#find" data-route="find">Find a tutor</a>
+        <a href="#schedule" data-route="schedule">Timetable</a>
+        <a href="#lessons" data-route="lessons">My lessons</a>
+        <a class="mobile-only" href="#workspace" data-route="workspace">Tutor</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#workspace" class="workspace-link" data-route="workspace">Tutor workspace <span aria-hidden="true">↗</span></a>
+        <button type="button" class="button dark small" data-action="profile" id="profile-button">My profile</button>
+      </div>
+    </div>
+  </header>
+  <div class="local-bar">
+    <div class="wrap"><span><i aria-hidden="true"></i><strong>Lightweight version</strong><span class="bar-detail">Data stays in this browser</span></span><button type="button" data-action="transfer">Share a request <span aria-hidden="true">↗</span></button></div>
+  </div>
+  <div class="wrap"><p id="cloud-setup-note" class="notice">You are viewing the local preview. <a href="./account.html"><strong>Register / Sign in ↗</strong></a> · <a href="./admin.html">Open the school admin page ↗</a>. Real registrations become available after the database setup in SETUP.md.</p><p id="storage-warning" class="notice" hidden role="status">Your browser cannot save changes. They last until you close this page. Download your data using “Share a request”.</p></div>
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript><p class="notice">Enable JavaScript in your browser to choose times and save requests.</p></noscript>
+    <div id="app"></div>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#find">learnst<span>.</span></a><p>Learning is better together.</p><div><span>Adil’s site</span><button type="button" data-action="transfer">My data</button></div></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="modal-inner"><button type="button" class="icon-button close-modal" data-action="close" aria-label="Close dialog">×</button><div id="modal-body"></div></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

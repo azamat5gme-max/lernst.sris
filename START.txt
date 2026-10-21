@@ -1,0 +1,28 @@
+LEARNST — SCIENCE, ENGLISH AND MATHS
+
+STUDENT SITE: index.html
+ACCOUNTS: account.html
+ADMIN DASHBOARD: admin.html
+
+OPEN A PREVIEW
+Unzip the folder and double-click index.html.
+For the admin preview, open admin.html and choose View local preview.
+Keep all files and the assets folder together.
+
+ENABLE REAL REGISTRATION
+Follow SETUP.md. You need one shared Supabase project.
+Run setup/database.sql in its SQL Editor, configure confirmation emails,
+and fill in the PUBLIC project URL and key in config.js.
+Create your admin account and grant it access using the SQL in SETUP.md.
+
+PUBLISH ON GITHUB PAGES
+Upload the CONTENTS of this folder to your GitHub repository.
+index.html, account.html and admin.html must be at the top level.
+Do not upload the ZIP itself.
+Settings → Pages → Deploy from a branch → main → /(root) → Save.
+Wait for Visit site.
+
+The admin can publish lessons and see who registered for each one.
+The student and admin pages use the same shared database.
+With config.js empty, data stays local and no real accounts are created.
+No website or database has been published or connected for you.

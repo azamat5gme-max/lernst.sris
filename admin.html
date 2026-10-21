@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#7850c8">
+  <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer"><title>School admin · Learnst</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./shared.css">
+  <script src="./config.js" defer></script><script src="./data.js" defer></script><script src="./cloud.js" defer></script><script src="./admin.js" defer></script>
+</head>
+<body class="admin-body">
+  <header class="topbar"><div class="wrap header-inner admin-header"><a class="brand" href="./index.html"><img src="./assets/favicon.svg" width="34" height="34" alt="">learnst<span>.</span></a><span class="admin-label">SCHOOL ADMIN</span><div><a href="./index.html">Student site ↗</a><a href="./account.html?next=admin" class="button outline small" id="admin-account">Account</a></div></div></header>
+  <main class="wrap admin-main" id="admin-app"><div class="empty"><h1>Your community, at a glance.</h1><p role="status">Checking admin access…</p></div></main>
+  <footer class="footer wrap"><p>Learnst · School workspace</p><span>Adil’s site</span></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="modal-inner"><button type="button" class="icon-button close-modal" data-admin-action="close" aria-label="Close dialog">×</button><div id="modal-body"></div></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="notice wrap">Enable JavaScript to open the admin dashboard.</p></noscript>
+</body>
+</html>
